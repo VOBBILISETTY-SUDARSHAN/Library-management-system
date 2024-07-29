@@ -3,9 +3,8 @@ session_start();
 $dbservername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbdata = "lms";
 // Create connection
-$conn = mysqli_connect($dbservername, $dbusername, $dbpassword,$dbdata);
+$conn = mysqli_connect($dbservername, $dbusername, $dbpassword);
 // Check connection
 if (!$conn) {
     echo "Connected unsuccessfully";
