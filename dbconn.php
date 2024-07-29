@@ -3,9 +3,9 @@ session_start();
 $dbservername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbdata = "lms";
+$database = "LMS";
 // Create connection
-$conn = mysqli_connect($dbservername, $dbusername, $dbpassword,$dbdata);
+$conn = mysqli_connect($dbservername, $dbusername, $dbpassword,$database);
 // Check connection
 if (!$conn) {
     echo "Connected unsuccessfully";
